@@ -5,32 +5,42 @@ $(document).ready(function () {
     //  $("p").hide();
 
     document.getElementById("ramdom").innerHTML =
-         Math.floor(Math.random() * (120 - 19 + 1) ) + 19;
-      
-    // $("#rainbow").click(function () {
-    //     $(".crystals").hide();
-    // });
-
-    // $("#green").click(function () {
-    //     $(".crystals").hide();
-    // });
-
-    // $("#blue").click(function () {
-    //     $(".crystals").hide();
-    // });
-
-    // $("#red").click(function () {
-    //     $(".crystals").hide();
-    // });
+        Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
     $("#rainbow").click(function () {
+        console.log(Math.floor(Math.random() * (12 - 1 + 1)) + 1);
 
-    document.getElementById("#green").innerHTML =
-         Math.floor(Math.random() * (120 - 19 + 1) ) + 19;
-         
+    });
+
+    $("#green").click(function () {
+        console.log(Math.floor(Math.random() * (12 - 1 + 1)) + 1);
+
+    });
+
+    $("#blue").click(function () {
+        console.log(Math.floor(Math.random() * (12 - 1 + 1)) + 1);
+
+    });
+
+        $("#red").click(function () {
+            document.getElementById("result").innerHTML =
+            (Math.floor(Math.random() * (12 - 1 + 1)) + 1);
+
+        });
+        
+
+        var red =
+            
+            $("#red").click(function () {
+            document.getElementById("result").innerHTML =
+            (Math.floor(Math.random() * (12 - 1 + 1)) + 1);
+
         });
 
+        document.getElementById("result").innerHTML =
+        (0 + red);
 
+        
 });
 
 
