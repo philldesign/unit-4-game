@@ -22,6 +22,15 @@ img {
 
     }
 
+    img:hover {
+
+        cursor: hand;
+        opacity: .7;
+        
+
+    }
+
+
 #red {
 
     height: 130px;
@@ -57,11 +66,13 @@ margin-bottom: 15px;
 
 }
 
+
+
 #ramdomN {
 
     background: green;
     color: black;
-    width: 60%;
+    width: 40%;
     float: left;
     margin-right: 2%;
     height: 84px;
@@ -73,9 +84,11 @@ margin-bottom: 15px;
 
     background: teal;
     color: black;
-    width: 40%;
-    float: right;
-
+    width: 60%;
+    display: flex; 
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
 
